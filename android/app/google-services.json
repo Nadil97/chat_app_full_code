@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "426307365530",
+    "project_id": "bookflutterapp",
+    "storage_bucket": "bookflutterapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426307365530:android:ae548e0cda5b22038c4d23",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426307365530-2s2e22nmc30tjvcteksq6g5mf9a7q9sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLc8QoanGTaXciQQXuQemuqQwxklaCxjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426307365530-2s2e22nmc30tjvcteksq6g5mf9a7q9sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
