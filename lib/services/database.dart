@@ -24,6 +24,7 @@ class DatabaseMethods {
         .get();
   }
 
+  // ignore: missing_return
   Future<bool> addChatRoom(chatRoom, chatRoomId) {
     FirebaseFirestore.instance
         .collection("chatRoom")
@@ -44,7 +45,7 @@ class DatabaseMethods {
   }
 
 
-  Future<void> addMessage(String chatRoomId, chatMessageData){
+  Future<void> addMessage(String chatRoomId, chatMessageData)async {
 
     FirebaseFirestore.instance.collection("chatRoom")
         .doc(chatRoomId)

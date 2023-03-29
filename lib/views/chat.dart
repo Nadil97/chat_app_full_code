@@ -24,11 +24,11 @@ class _ChatState extends State<Chat> {
       stream: chats,
       builder: (context, snapshot){
         return snapshot.hasData ?  ListView.builder(
-          itemCount: snapshot.data.documents.length,
+          itemCount: snapshot.data.docs.length, // change
             itemBuilder: (context, index){
               return MessageTile(
-                message: snapshot.data.documents[index].data["message"],
-                sendByMe: Constants.myName == snapshot.data.documents[index].data["sendBy"],
+                message: snapshot.data.docs[index].data()["message"],
+                sendByMe: Constants.myName == snapshot.data.docs[index].data()["sendBy"],
               );
             }) : Container();
       },
